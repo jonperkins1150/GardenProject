@@ -12,7 +12,9 @@ import { ProductsComponent } from './products/products.component';
   declarations: [
     AppComponent,
 
-    AboutComponent
+    AboutComponent,
+
+    ProductsComponent
 
   ],
   imports: [
