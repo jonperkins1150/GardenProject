@@ -1,35 +1,41 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<button routerLink="">Home</button>
+<button routerLink="/About">About</button>
+<button routerLink="/Product">Product</button>
+<button routerLink="/Login">Login</button>
 
+<body>
 
-
-<div>
-  <div style="text-align:center ">
-    <img width="450"  alt="logo" src="/assets/logo.png">
+  <div>
+    <div style="text-align:center  ">
+      <img width="450"  alt="logo" src="/assets/logo.png">
+    </div>
+    <div>
+    
+    </div>
   </div>
-</div>
-<div>
-<h2>Featured Products: </h2>
-</div>
-<div>
-<!--    <table> 
-     <tr>
-      <td>
-          <img width="400" src="/assets/annuals.jpg">
-          <a>Perennials - Annual plants live for only one growing season, during which they produce seeds, then die. Familiar annual plants include impatiens, zinnias, and sunflowers. /a>
-      </td>
-    </tr>
-    <tr>
-        <li>img width="400" src="/assets/perennials.jpg"></li>
-     <a>Perennials - The term Perennial Plants is reserved for plants that live for more than two years.</a>
-    </tr>
-     <tr>
-        <img width="400" src="/assets/treesandshrubs.jpg" >
-        <a>Trees and Shrubs are woody plant. ... Plants of many species may grow either into shrubs or trees, depending on their growing conditions.</a>
-     </tr>
-    </table> -->
-</div>
-
-
-
-<router-outlet></router-outlet>
-
+  <div>
+  <h2>Featured Products: </h2>
+  <ul>
+    <div>
+   
+        <h2><a><img src="/assets/annuals.jpg" rel="noopener" href="https://angular.io/cli">Annuals</a></h2>
+    
+    </div>
+  <div>
+    <li>
+      <h2><a><img width="400"src="/assets/perennials.jpg" rel="noopener" href="https://angular.io/cli">Prennials</a></h2>
+    </li>
+    </div>
+    <div>
+    <li>
+      <h2><a><img width="400" src="/assets/treesandshrubs.jpg" rel="noopener" href="https://blog.angular.io/">Trees & Shrubs</a></h2>
+    </li>
+  </div>
+  </ul>
+  </div>
+  </body>
+  
+  <router-outlet></router-outlet>
+  
+  
