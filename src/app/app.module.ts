@@ -7,7 +7,6 @@ import { AboutComponent } from './about/about.component';
 
 import { ProductsComponent } from './products/products.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
