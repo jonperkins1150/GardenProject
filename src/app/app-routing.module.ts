@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 
 const appRoutes: Routes = [
+  { path: '', component: SplashComponent},
   { path: 'about', component: AboutComponent },
   { path: 'products',      component: ProductsComponent },
   { path: 'splash',   component: SplashComponent},
