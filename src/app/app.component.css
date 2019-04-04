@@ -1,5 +1,10 @@
+body {
+    background-color: white;
+  }
+
 div{
     border-style:inset;
+
 }
 h4{
     font-size: 55px;
