@@ -30,7 +30,10 @@ export class ProductsComponent implements OnInit {
   }
 
   retrieveProducts(): void{
-    this.product = this.data.getProducts();
+    this.data.getProducts().subscribe(data => {
+      this.product = data;
+      console.log(this.product);
+    });
   }
 
 }
