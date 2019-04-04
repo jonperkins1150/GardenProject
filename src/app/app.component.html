@@ -1,46 +1,21 @@
     
 <!--The content below is only a placeholder and can be replaced.-->
-<button routerLink="">Home</button>
-<button routerLink="/About">About</button>
-<button routerLink="/Product">Product</button>
-<button routerLink="/Login">Login</button>
+<button routerLink="/splash" routerLinkActive="active">Home</button>
+<button routerLink="/about" routerLinkActive="active">About</button>
+<button routerLink="/products" routerLinkActive="active">Products</button>
 
 <body>
 
   <div>
-    <div style="text-align:center  ">
+    <div style="text-align:center;background-color:green">
       <img width="450" alt="logo" src="/assets/logo.png">
     </div>
   </div>
-  
-  <div>
 
-  <h2 class="center">Our Featured Products</h2>
-  </div>
-  
-  <table cellspacing="30" cellpadding="20">
-    <tr>
-      <th></th>
-      <th></th>
-      <th><h2>Annuals</h2></th>
-      <th><h2>Perennials</h2></th>
-      <th><h2>Trees & Shrubs</h2></th>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td><img width="450" src="/assets/annuals.jpg" ></td>
-        <td><img width="450" src="/assets/perennials.jpg" ></td>
-        <td><img width="450" src="/assets/treesandshrubs.jpg" ></td>
-    </tr>  
-</table>
-  
-     
-  
- <app-products></app-products>
 
-  <button routerLink="#/Products/products.component.html">Product</button>
-  </body>
+    </body>
+
+
   
   <router-outlet></router-outlet>
   
