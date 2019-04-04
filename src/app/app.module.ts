@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 
 import { ProductsComponent } from './products/products.component';
+import { SplashComponent } from './splash/splash.component';
 
 @NgModule({
   declarations: [
@@ -13,12 +14,13 @@ import { ProductsComponent } from './products/products.component';
 
     AboutComponent,
 
-    ProductsComponent
+    ProductsComponent,
+    SplashComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
